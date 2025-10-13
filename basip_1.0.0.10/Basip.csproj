@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Basip-cb8c693b-e5ee-4fcf-9faa-8403bced6feb</UserSecretsId>
+    <AssemblyVersion>1.0.0.2</AssemblyVersion>
+    <FileVersion>1.0.0.10</FileVersion>
+    <AssemblyName>basipkeysservices</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebirdSql.Data.FirebirdClient" Version="10.3.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.2" />
+	<PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="9.0.2" />
+	<PackageReference Include="RestSharp" Version="112.1.0" />
+	<PackageReference Include="Serilog.Extensions.Logging.File" Version="3.0.0" />
+  </ItemGroup>
+</Project>
